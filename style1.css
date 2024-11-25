@@ -1,0 +1,262 @@
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+header {
+    background-color: #0d0303;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #181317;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+}
+.options{
+   height: 300px;
+   margin-top: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 30px;
+   width: 100%;
+   background-color: #E6F0F8;
+}
+.options p{
+   opacity: .8;
+}
+.options h1{
+   font-weight: 400;
+   font-size: 40px;
+
+}
+.options button:hover{
+   background-color: #049cfb;
+}
+.options button{
+   transition: all ease .5s;
+   padding: 10px 50px;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   background-color: #4296CB;
+   margin-left: 10px;
+   font-weight: 400;
+
+}
+
+
+ #name{
+      font-size: 40px;
+      -webkit-text-fill-color: rgb(250, 5, 5);
+ }
+
+ .head{
+    font-size: 21px;
+    font-weight: 600;
+    height: 27px;
+ }
+ .border:hover{
+    border: 4px solid rgb(253, 251, 250);
+     -webkit-text-fill-color: rgb(255, 85, 0);
+    }
+
+ .backimg{
+   margin-top: 20px;
+    width: 100%;
+    height: 150%;
+    background-image: url(a12.png);
+ }   
+ 
+ .backimg1{
+    margin-left:550px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+
+ .backimg h1{
+   margin-top: 50px;
+    text-align: left;
+    font-size: 75px;
+    font-weight: 950;
+    background-color: #0c0c0cdc;
+    -webkit-text-stroke: rgb(255, 111, 0);
+    -webkit-text-stroke-width: 4px;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+ }
+
+ .backimg1 h2{
+     margin-top: 90px;
+    font-size: 60px;
+    font-weight: 700;
+    -webkit-text-fill-color: #faf204;
+    
+ }
+ .backimgdata{
+    display: flex;
+ }
+
+
+ .footer{
+    width:40px ;
+    height:40px ;
+    border-radius: 20px;
+ }
+ .foot{
+    color: aliceblue;
+    
+ }
+
+ .footdiv{
+   margin-top: 20px;
+    display:flex; 
+    width:100%;
+    height: 90px;
+    align-items: center;
+    background-color: #0d0303;
+ }
+
+ .footdiv p{
+    color: aliceblue;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 600;
+    margin-left: 30px;
+ }
+
+ .footdiv1{
+    margin-left:800px;
+    display: flex;
+    align-items: center;
+    background-color: #06050a;
+ }
+
+
+ .exercise{
+   margin-left: 80px;
+    color: #0c0c0c;
+    border-radius: 10px;
+    width:90%;
+    background-color: #e6eae6;
+    
+    
+ }
+ .box{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 60px;
+   border-radius: 10px;
+   text-align: center;
+   border: 1px solid rgb(172, 150, 150);
+   width: 40%;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   margin-left: 390px;
+   background-color: #66706671;
+   backdrop-filter: blur(50px);
+ }
+
+ .contact{
+    height: 550px;
+    background-color: rgb(8, 8, 8);
+    background-image: -moz-linear-gradient(red,blue);
+ }
+
+ .contact h1{
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-fill-color: rgb(94, 4, 238);
+ }
+ label{
+    -webkit-text-fill-color: aliceblue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+ }
+ input{
+    -webkit-text-fill-color: rgb(0, 8, 15);
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #0d0303;
+    border-radius: 2px;
+    background-color: beige;
+    border: 4px solid;
+    width: 300px;
+ }
+ button{
+    border: 4px solid;
+    background-color: rgb(248, 249, 248);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+ }
+
+ button:hover{
+    border-color: #fff;
+    background-color: rgb(205, 108, 212);
+ }
+
+ .own p{
+
+    align-items: center;
+    -webkit-text-fill-color: aliceblue;
+    font-size: 22px;
+    font-weight: 700px;
+ }
+
+ .about{
+    background-image: url(ab6.jpg);
+    
+    height: 600px;
+ }
+ .ab1{
+    background-image: url(ab7.jpg);
+    height: 600px;
+ }
+
+ .bold h1{
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: 700;
+ }
+ .bold h2,h5{
+    margin-top: 70px;
+   -webkit-text-fill-color: rgba(129, 127, 127, 0.984);
+    font-size: 40px;
+    font-weight: 700;
+    -webkit-text-stroke: rgb(205, 10, 10);
+    -webkit-text-stroke-width: 2px;
+    
+    color: transparent;
+ }
+ 
